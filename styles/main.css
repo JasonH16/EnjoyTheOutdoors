@@ -1,15 +1,27 @@
+* {
+    padding: 0%;
+    margin: 0%;
+
+}
 body{
     background-color: lightblue;
     color: darkmagenta;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    background-color: chartreuse;
 }
 
 nav a{
     display: inline-block;
     background-color: orange;
     color: black;
-    margin: 0.5px;
+    margin-right: 1px;
     padding: 0.5rem;
     text-decoration: none;
     
+}
+nav a.selected{
+    background-color: black;
+    color: blueviolet;
 }
